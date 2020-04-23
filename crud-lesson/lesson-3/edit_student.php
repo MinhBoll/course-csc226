@@ -59,7 +59,7 @@ and open the template in the editor.
             <?php
             }
         } else {
-            $query1 = "SELECT * FROM students WHERE id=".$_GET['id']);
+            $query1 = "SELECT * FROM students WHERE id=".$_GET['id'];
             $result = mysqli_query($con, $query1);
             $user = $result->fetch_assoc();
             mysqli_close($con);
