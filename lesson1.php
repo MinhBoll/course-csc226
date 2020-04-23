@@ -1,3 +1,3 @@
 <?php
-	echo "Php is fun!!!";
+	echo "Yes, PHP is FUN!!!";
 ?>
