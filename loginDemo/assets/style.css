@@ -1,0 +1,36 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+input{
+	font-size: 14px;
+	font-family: arial;
+}
+
+body{
+	background-color: #BBB;
+	font-family: arial;
+	padding-bottom: 100px;
+}
+
+.container{
+	max-width: 750px;
+	margin: 20px auto 0 auto;
+	padding: 30px;
+	background-color: #FFF;
+}
+.form-row{
+	padding: 10px 0;
+	display: flex;
+}
+
+.form-row label{
+	padding-right: 10px;
+	flex: 1;
+}
+
+/*want to flex set flex: 1*/
+.form-row input{
+	flex: 3; 
+}
